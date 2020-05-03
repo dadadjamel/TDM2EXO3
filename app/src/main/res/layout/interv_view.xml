@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tacheLayoutView"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+
+    android:clickable="true"
+    android:focusable="true"
+
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/IntervNomView"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_alignEnd="@id/intervDateView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="175dp" />
+
+    <TextView
+        android:id="@+id/IntervTypeView"
+        android:layout_width="70dp"
+        android:layout_height="51dp"
+        android:layout_alignEnd="@id/intervDateView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginEnd="103dp" />
+
+    <TextView
+        android:id="@+id/intervNmrView"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_alignEnd="@id/intervDateView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="244dp" />
+
+    <TextView
+        android:id="@+id/intervDateView"
+        android:layout_width="75dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:textSize="15sp" />
+</RelativeLayout>
+
